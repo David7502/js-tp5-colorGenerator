@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  transition: 1s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
